@@ -1,0 +1,28 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="Microsoft FrontPage 4.0">
+</HEAD>
+<script typ="text/javascript">
+
+function InitCox()
+{
+CompareDWGX.ShowToolbar = 1
+CompareDWGX.FirstDWGFile = "E:/version1.dwg"
+CompareDWGX.SecondDWGFile =  "E:/version2.dwg"
+};
+function HideToolbar()
+{
+if (CompareDWGX.ShowToolbar)
+	CompareDWGX.ShowToolbar =0
+else
+CompareDWGX.ShowToolbar = 1
+}
+</script>
+<a href="javascript:HideToolbar()">Show/Hide Toolbar</a>  
+<BODY onload="javascript:InitCox()">
+
+<OBJECT id=CompareDWGX classid="clsid:712646D0-87E9-4F0C-9C5F-F86FE7F3D83A"  width="1020" height="760">
+   
+</OBJECT>
+</BODY>
+</HTML>

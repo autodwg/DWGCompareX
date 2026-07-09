@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<META NAME="" Content="">
+<script typ="text/javascript">
+function InitCox()
+{
+CompareDWGX.ShowToolbar = 1
+};
+
+function HideToolbar()
+{
+if (CompareDWGX.ShowToolbar)
+	CompareDWGX.ShowToolbar =0
+else
+CompareDWGX.ShowToolbar = 1
+};
+</script>
+</HEAD>
+<body onLoad="javascript:InitCox()">
+<script typ="text/javascript">
+function CheckData(form)
+{
+	var vPath1, vPath2;
+	vPath1 = form.FirstDWGFile.value;
+	vPath2 = form.SecondDWGFile.value;
+
+	CompareDWGX.FirstDWGFile(vPath1);
+	CompareDWGX.SecondDWGFile(vPath2);
+	
+	CompareDWGX.CompareDWGFiles(vPath1, vPath2)
+
+}
+</script>
+<a href="javascript:HideToolbar()">Show/Hide Toolbar</a>  
+<form name="form1" action="" method="post">
+<INPUT type="file" value="d:\abcd.wrl" id="FirstDWGFile" name="FirstDWGFile" class="TextEdit">
+<INPUT type="file" value="d:\abcd.wrl" id="SecondDWGFile" name="SecondDWGFile" class="TextEdit">
+<input type ="button" name="button1" value="Compare" onClick="javascript:return(CheckData(this.form));"> 
+</form>
+
+<OBJECT id=CompareDWGX classid="clsid:712646D0-87E9-4F0C-9C5F-F86FE7F3D83A"  width="1020" height="760">
+   
+</OBJECT>
+</body>
+</HTML>
