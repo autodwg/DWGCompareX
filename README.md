@@ -7,7 +7,8 @@ DWGCompareX is an Active Control(COM) that helps you find differences between ve
 - Synchronously locate the selected entity when you click the result report list.
 - Support DWG and DXF in versions from R9 to 2027.
 
-### DWGViewX Interface:
+### DWGCompareX Interface:
+![CompareX](https://github.com/autodwg/DWGCompareX/blob/main/Demo/Screenshot.png?raw=true)
 
 
 ### Free Trial Download Link
