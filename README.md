@@ -12,7 +12,7 @@ DWGCompareX is an Active Control(COM) that helps you find differences between ve
 
 
 ### Free Trial Download Link
-
+https://github.com/autodwg/DWGCompareX/releases/download/v2.5.1/DWGCompareX_v2.5.1.zip
 
 ## User Guide
 ### Getting Started
