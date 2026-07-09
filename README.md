@@ -18,7 +18,7 @@ https://github.com/autodwg/DWGCompareX/releases/download/v2.5.1/DWGCompareX_v2.5
 ### Getting Started
 Quick setup
 
-#### Step 1: Register the DLL Component
+#### Step 1: Register the Component
 Double-click `reg.bat` to automatically register `CompareDWGX.ocx` on your system.
 
 If registration fails:
