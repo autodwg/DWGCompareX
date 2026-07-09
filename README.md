@@ -8,7 +8,7 @@ DWGCompareX is an Active Control(COM) that helps you find differences between ve
 - Support DWG and DXF in versions from R9 to 2027.
 
 ### DWGCompareX Interface:
-![CompareX](https://github.com/autodwg/DWGCompareX/blob/main/Demo/Screenshot.png?raw=true)
+![CompareX](https://github.com/autodwg/DWGCompareX/blob/main/Demo/Screenshot.png)
 
 
 ### Free Trial Download Link
