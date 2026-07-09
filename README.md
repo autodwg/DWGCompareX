@@ -30,7 +30,7 @@ Manually register the DLL using command:
 regsvr32 CompareDWGX.ocx
 ```
 #### Step 2: Test with Example Html
-Run the provided sample Example Html in IE Mode to verify functionality.
+Run the provided sample Example Html in **IE Mode** to verify functionality.
 
 **Sample Code**
 
